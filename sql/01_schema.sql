@@ -1,0 +1,15 @@
+PRAGMA foreign_keys=ON;
+CREATE TABLE factories(id INTEGER PRIMARY KEY,name TEXT NOT NULL UNIQUE,city TEXT NOT NULL);
+CREATE TABLE production_lines(id INTEGER PRIMARY KEY,factory_id INTEGER NOT NULL REFERENCES factories(id),name TEXT NOT NULL);
+CREATE TABLE equipment(id INTEGER PRIMARY KEY,line_id INTEGER NOT NULL REFERENCES production_lines(id),name TEXT NOT NULL,installed_on TEXT NOT NULL,status TEXT NOT NULL CHECK(status IN ('active','inactive')),capacity_per_hour REAL NOT NULL CHECK(capacity_per_hour>0));
+CREATE TABLE sensors(id INTEGER PRIMARY KEY,equipment_id INTEGER NOT NULL REFERENCES equipment(id),tag TEXT NOT NULL UNIQUE,kind TEXT NOT NULL CHECK(kind IN ('temperature','vibration','pressure','energy')),unit TEXT NOT NULL,min_value REAL NOT NULL,max_value REAL NOT NULL,CHECK(min_value<max_value));
+CREATE TABLE employees(id INTEGER PRIMARY KEY,factory_id INTEGER NOT NULL REFERENCES factories(id),name TEXT NOT NULL,role TEXT NOT NULL);
+CREATE TABLE production_orders(id INTEGER PRIMARY KEY,equipment_id INTEGER NOT NULL REFERENCES equipment(id),product TEXT NOT NULL,planned_qty INTEGER NOT NULL CHECK(planned_qty>0),due_date TEXT NOT NULL,status TEXT NOT NULL CHECK(status IN ('completed','open','cancelled')));
+CREATE TABLE production_records(id INTEGER PRIMARY KEY,order_id INTEGER NOT NULL REFERENCES production_orders(id),recorded_at TEXT NOT NULL,shift TEXT NOT NULL CHECK(shift IN ('A','B','C')),good_qty INTEGER NOT NULL CHECK(good_qty>=0),scrap_qty INTEGER NOT NULL CHECK(scrap_qty>=0),operating_minutes INTEGER NOT NULL CHECK(operating_minutes BETWEEN 1 AND 480));
+CREATE TABLE maintenance_orders(id INTEGER PRIMARY KEY,equipment_id INTEGER NOT NULL REFERENCES equipment(id),employee_id INTEGER REFERENCES employees(id),kind TEXT NOT NULL CHECK(kind IN ('preventive','corrective')),opened_at TEXT NOT NULL,closed_at TEXT,cost REAL NOT NULL CHECK(cost>=0),description TEXT NOT NULL,CHECK(closed_at IS NULL OR closed_at>=opened_at));
+CREATE TABLE downtime_events(id INTEGER PRIMARY KEY,equipment_id INTEGER NOT NULL REFERENCES equipment(id),started_at TEXT NOT NULL,duration_minutes INTEGER NOT NULL CHECK(duration_minutes>0),planned INTEGER NOT NULL CHECK(planned IN (0,1)),reason TEXT NOT NULL);
+CREATE TABLE sensor_readings(id INTEGER PRIMARY KEY,sensor_id INTEGER NOT NULL REFERENCES sensors(id),measured_at TEXT NOT NULL,value REAL,quality TEXT NOT NULL CHECK(quality IN ('good','bad','missing')),UNIQUE(sensor_id,measured_at),CHECK((quality='missing' AND value IS NULL) OR (quality<>'missing' AND value IS NOT NULL)));
+CREATE INDEX idx_readings_sensor_time ON sensor_readings(sensor_id,measured_at);
+CREATE INDEX idx_records_time ON production_records(recorded_at);
+CREATE INDEX idx_downtime_equipment_time ON downtime_events(equipment_id,started_at);
+CREATE INDEX idx_maintenance_equipment ON maintenance_orders(equipment_id);

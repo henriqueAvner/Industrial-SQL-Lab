@@ -1,0 +1,2291 @@
+{
+  "1": {
+    "columns": [
+      "id",
+      "name",
+      "city"
+    ],
+    "row_count": 3,
+    "first_rows": [
+      [
+        1,
+        "MetalMinas",
+        "Contagem"
+      ],
+      [
+        2,
+        "AçoSul",
+        "Betim"
+      ],
+      [
+        3,
+        "ValePeças",
+        "Belo Horizonte"
+      ]
+    ]
+  },
+  "2": {
+    "columns": [
+      "name",
+      "city"
+    ],
+    "row_count": 3,
+    "first_rows": [
+      [
+        "AçoSul",
+        "Betim"
+      ],
+      [
+        "MetalMinas",
+        "Contagem"
+      ],
+      [
+        "ValePeças",
+        "Belo Horizonte"
+      ]
+    ]
+  },
+  "3": {
+    "columns": [
+      "id",
+      "line_id",
+      "name",
+      "installed_on",
+      "status",
+      "capacity_per_hour"
+    ],
+    "row_count": 18,
+    "first_rows": [
+      [
+        1,
+        1,
+        "Máquina 1",
+        "2022-01-01",
+        "active",
+        85.0
+      ],
+      [
+        2,
+        1,
+        "Máquina 2",
+        "2022-01-01",
+        "active",
+        90.0
+      ],
+      [
+        3,
+        1,
+        "Máquina 3",
+        "2022-01-01",
+        "active",
+        95.0
+      ]
+    ]
+  },
+  "4": {
+    "columns": [
+      "id",
+      "name"
+    ],
+    "row_count": 17,
+    "first_rows": [
+      [
+        1,
+        "Máquina 1"
+      ],
+      [
+        2,
+        "Máquina 2"
+      ],
+      [
+        3,
+        "Máquina 3"
+      ]
+    ]
+  },
+  "5": {
+    "columns": [
+      "id",
+      "name"
+    ],
+    "row_count": 1,
+    "first_rows": [
+      [
+        18,
+        "Máquina 18"
+      ]
+    ]
+  },
+  "6": {
+    "columns": [
+      "id",
+      "capacity_per_hour"
+    ],
+    "row_count": 6,
+    "first_rows": [
+      [
+        13,
+        145.0
+      ],
+      [
+        14,
+        150.0
+      ],
+      [
+        15,
+        155.0
+      ]
+    ]
+  },
+  "7": {
+    "columns": [
+      "id",
+      "tag"
+    ],
+    "row_count": 18,
+    "first_rows": [
+      [
+        1,
+        "E01_temperature"
+      ],
+      [
+        5,
+        "E02_temperature"
+      ],
+      [
+        9,
+        "E03_temperature"
+      ]
+    ]
+  },
+  "8": {
+    "columns": [
+      "id",
+      "tag",
+      "kind"
+    ],
+    "row_count": 36,
+    "first_rows": [
+      [
+        2,
+        "E01_vibration",
+        "vibration"
+      ],
+      [
+        3,
+        "E01_pressure",
+        "pressure"
+      ],
+      [
+        6,
+        "E02_vibration",
+        "vibration"
+      ]
+    ]
+  },
+  "9": {
+    "columns": [
+      "id",
+      "factory_id",
+      "name",
+      "role"
+    ],
+    "row_count": 2,
+    "first_rows": [
+      [
+        1,
+        1,
+        "Técnico 1",
+        "maintenance"
+      ],
+      [
+        11,
+        3,
+        "Técnico 11",
+        "maintenance"
+      ]
+    ]
+  },
+  "10": {
+    "columns": [
+      "id",
+      "sensor_id",
+      "measured_at",
+      "value",
+      "quality"
+    ],
+    "row_count": 5,
+    "first_rows": [
+      [
+        1,
+        1,
+        "2026-07-01 00:00:00",
+        60.478,
+        "good"
+      ],
+      [
+        2,
+        1,
+        "2026-07-01 06:00:00",
+        50.307,
+        "good"
+      ],
+      [
+        3,
+        1,
+        "2026-07-01 12:00:00",
+        34.256,
+        "good"
+      ]
+    ]
+  },
+  "11": {
+    "columns": [
+      "city"
+    ],
+    "row_count": 3,
+    "first_rows": [
+      [
+        "Belo Horizonte"
+      ],
+      [
+        "Betim"
+      ],
+      [
+        "Contagem"
+      ]
+    ]
+  },
+  "12": {
+    "columns": [
+      "product"
+    ],
+    "row_count": 3,
+    "first_rows": [
+      [
+        "Carcaça"
+      ],
+      [
+        "Chapa"
+      ],
+      [
+        "Eixo"
+      ]
+    ]
+  },
+  "13": {
+    "columns": [
+      "id",
+      "equipment_id",
+      "employee_id",
+      "kind",
+      "opened_at",
+      "closed_at",
+      "cost",
+      "description"
+    ],
+    "row_count": 19,
+    "first_rows": [
+      [
+        1,
+        15,
+        null,
+        "preventive",
+        "2026-07-01 05:00:00",
+        "2026-07-01 07:00:00",
+        527.4,
+        "Inspeção e ajuste"
+      ],
+      [
+        8,
+        5,
+        null,
+        "corrective",
+        "2026-07-06 05:00:00",
+        "2026-07-06 07:00:00",
+        1127.48,
+        "Inspeção e ajuste"
+      ],
+      [
+        13,
+        10,
+        null,
+        "corrective",
+        "2026-07-11 05:00:00",
+        "2026-07-11 07:00:00",
+        691.76,
+        "Inspeção e ajuste"
+      ]
+    ]
+  },
+  "14": {
+    "columns": [
+      "id",
+      "sensor_id",
+      "measured_at",
+      "value",
+      "quality"
+    ],
+    "row_count": 283,
+    "first_rows": [
+      [
+        2304,
+        72,
+        "2026-07-08 18:00:00",
+        null,
+        "missing"
+      ],
+      [
+        2588,
+        71,
+        "2026-07-09 18:00:00",
+        null,
+        "missing"
+      ],
+      [
+        2872,
+        70,
+        "2026-07-10 18:00:00",
+        null,
+        "missing"
+      ]
+    ]
+  },
+  "15": {
+    "columns": [
+      "id",
+      "equipment_id",
+      "employee_id",
+      "kind",
+      "opened_at",
+      "closed_at",
+      "cost",
+      "description"
+    ],
+    "row_count": 7,
+    "first_rows": [
+      [
+        99,
+        11,
+        5,
+        "corrective",
+        "2026-09-25 05:00:00",
+        null,
+        1150.41,
+        "Inspeção e ajuste"
+      ],
+      [
+        100,
+        12,
+        5,
+        "preventive",
+        "2026-09-26 05:00:00",
+        null,
+        918.43,
+        "Inspeção e ajuste"
+      ],
+      [
+        101,
+        13,
+        9,
+        "corrective",
+        "2026-09-27 05:00:00",
+        null,
+        866.27,
+        "Inspeção e ajuste"
+      ]
+    ]
+  },
+  "16": {
+    "columns": [
+      "id",
+      "equipment_id",
+      "product",
+      "planned_qty",
+      "due_date",
+      "status"
+    ],
+    "row_count": 527,
+    "first_rows": [
+      [
+        528,
+        1,
+        "Eixo",
+        1200,
+        "2026-08-01",
+        "completed"
+      ],
+      [
+        529,
+        2,
+        "Carcaça",
+        1200,
+        "2026-08-01",
+        "completed"
+      ],
+      [
+        530,
+        3,
+        "Chapa",
+        1200,
+        "2026-08-01",
+        "completed"
+      ]
+    ]
+  },
+  "17": {
+    "columns": [
+      "id",
+      "sensor_id",
+      "measured_at",
+      "value",
+      "quality"
+    ],
+    "row_count": 28,
+    "first_rows": [
+      [
+        17857,
+        1,
+        "2026-09-01 00:00:00",
+        46.986,
+        "good"
+      ],
+      [
+        17858,
+        1,
+        "2026-09-01 06:00:00",
+        37.107,
+        "good"
+      ],
+      [
+        17859,
+        1,
+        "2026-09-01 12:00:00",
+        59.787,
+        "good"
+      ]
+    ]
+  },
+  "18": {
+    "columns": [
+      "id",
+      "equipment_id",
+      "started_at",
+      "duration_minutes",
+      "planned",
+      "reason"
+    ],
+    "row_count": 29,
+    "first_rows": [
+      [
+        6,
+        2,
+        "2026-07-03 03:00:00",
+        105,
+        0,
+        "setup"
+      ],
+      [
+        12,
+        4,
+        "2026-07-05 03:00:00",
+        146,
+        0,
+        "mechanical"
+      ],
+      [
+        14,
+        5,
+        "2026-07-06 03:00:00",
+        104,
+        0,
+        "setup"
+      ]
+    ]
+  },
+  "19": {
+    "columns": [
+      "id",
+      "equipment_id",
+      "product",
+      "planned_qty",
+      "due_date",
+      "status"
+    ],
+    "row_count": 83,
+    "first_rows": [
+      [
+        31,
+        14,
+        "Carcaça",
+        1200,
+        "2026-07-02",
+        "cancelled"
+      ],
+      [
+        62,
+        11,
+        "Carcaça",
+        1200,
+        "2026-07-04",
+        "cancelled"
+      ],
+      [
+        93,
+        8,
+        "Carcaça",
+        1200,
+        "2026-07-06",
+        "cancelled"
+      ]
+    ]
+  },
+  "20": {
+    "columns": [
+      "id",
+      "cost"
+    ],
+    "row_count": 10,
+    "first_rows": [
+      [
+        54,
+        1754.35
+      ],
+      [
+        32,
+        1714.43
+      ],
+      [
+        83,
+        1704.89
+      ]
+    ]
+  },
+  "21": {
+    "columns": [
+      "id",
+      "total_qty"
+    ],
+    "row_count": 4443,
+    "first_rows": [
+      [
+        1,
+        391
+      ],
+      [
+        2,
+        414
+      ],
+      [
+        3,
+        339
+      ]
+    ]
+  },
+  "22": {
+    "columns": [
+      "id",
+      "scrap_pct"
+    ],
+    "row_count": 4443,
+    "first_rows": [
+      [
+        1,
+        2.56
+      ],
+      [
+        2,
+        4.83
+      ],
+      [
+        3,
+        3.24
+      ]
+    ]
+  },
+  "23": {
+    "columns": [
+      "id",
+      "hours"
+    ],
+    "row_count": 223,
+    "first_rows": [
+      [
+        1,
+        0.42
+      ],
+      [
+        2,
+        0.48
+      ],
+      [
+        3,
+        1.65
+      ]
+    ]
+  },
+  "24": {
+    "columns": [
+      "id",
+      "responsible"
+    ],
+    "row_count": 105,
+    "first_rows": [
+      [
+        1,
+        "Sem responsável"
+      ],
+      [
+        2,
+        "1"
+      ],
+      [
+        3,
+        "9"
+      ]
+    ]
+  },
+  "25": {
+    "columns": [
+      "id",
+      "category"
+    ],
+    "row_count": 223,
+    "first_rows": [
+      [
+        1,
+        "curta"
+      ],
+      [
+        2,
+        "curta"
+      ],
+      [
+        3,
+        "curta"
+      ]
+    ]
+  },
+  "26": {
+    "columns": [
+      "id",
+      "month"
+    ],
+    "row_count": 1564,
+    "first_rows": [
+      [
+        1,
+        "2026-07"
+      ],
+      [
+        2,
+        "2026-07"
+      ],
+      [
+        3,
+        "2026-07"
+      ]
+    ]
+  },
+  "27": {
+    "columns": [
+      "id",
+      "tag"
+    ],
+    "row_count": 72,
+    "first_rows": [
+      [
+        1,
+        "e01_temperature"
+      ],
+      [
+        2,
+        "e01_vibration"
+      ],
+      [
+        3,
+        "e01_pressure"
+      ]
+    ]
+  },
+  "28": {
+    "columns": [
+      "id",
+      "hours"
+    ],
+    "row_count": 98,
+    "first_rows": [
+      [
+        1,
+        2.0
+      ],
+      [
+        2,
+        2.0
+      ],
+      [
+        3,
+        2.0
+      ]
+    ]
+  },
+  "29": {
+    "columns": [
+      "id",
+      "category"
+    ],
+    "row_count": 368,
+    "first_rows": [
+      [
+        1,
+        "normal"
+      ],
+      [
+        2,
+        "normal"
+      ],
+      [
+        3,
+        "normal"
+      ]
+    ]
+  },
+  "30": {
+    "columns": [
+      "id",
+      "day",
+      "hour"
+    ],
+    "row_count": 20,
+    "first_rows": [
+      [
+        1,
+        "2026-07-01",
+        "00"
+      ],
+      [
+        2,
+        "2026-07-01",
+        "06"
+      ],
+      [
+        3,
+        "2026-07-01",
+        "12"
+      ]
+    ]
+  },
+  "31": {
+    "columns": [
+      "equipment_count"
+    ],
+    "row_count": 1,
+    "first_rows": [
+      [
+        18
+      ]
+    ]
+  },
+  "32": {
+    "columns": [
+      "readings",
+      "non_null_values"
+    ],
+    "row_count": 1,
+    "first_rows": [
+      [
+        26496,
+        26213
+      ]
+    ]
+  },
+  "33": {
+    "columns": [
+      "minimum",
+      "maximum",
+      "average"
+    ],
+    "row_count": 1,
+    "first_rows": [
+      [
+        103.74,
+        1754.35,
+        904.9692380952381
+      ]
+    ]
+  },
+  "34": {
+    "columns": [
+      "good",
+      "scrap"
+    ],
+    "row_count": 1,
+    "first_rows": [
+      [
+        1604541,
+        91094
+      ]
+    ]
+  },
+  "35": {
+    "columns": [
+      "kind",
+      "sensors"
+    ],
+    "row_count": 4,
+    "first_rows": [
+      [
+        "energy",
+        18
+      ],
+      [
+        "pressure",
+        18
+      ],
+      [
+        "temperature",
+        18
+      ]
+    ]
+  },
+  "36": {
+    "columns": [
+      "status",
+      "orders"
+    ],
+    "row_count": 3,
+    "first_rows": [
+      [
+        "cancelled",
+        50
+      ],
+      [
+        "completed",
+        1481
+      ],
+      [
+        "open",
+        33
+      ]
+    ]
+  },
+  "37": {
+    "columns": [
+      "shift",
+      "good"
+    ],
+    "row_count": 3,
+    "first_rows": [
+      [
+        "A",
+        533903
+      ],
+      [
+        "B",
+        534834
+      ],
+      [
+        "C",
+        535804
+      ]
+    ]
+  },
+  "38": {
+    "columns": [
+      "equipment_id",
+      "minutes"
+    ],
+    "row_count": 17,
+    "first_rows": [
+      [
+        1,
+        890
+      ],
+      [
+        2,
+        943
+      ],
+      [
+        3,
+        839
+      ]
+    ]
+  },
+  "39": {
+    "columns": [
+      "equipment_id",
+      "cost"
+    ],
+    "row_count": 17,
+    "first_rows": [
+      [
+        1,
+        7248.23
+      ],
+      [
+        2,
+        4749.17
+      ],
+      [
+        3,
+        5638.17
+      ]
+    ]
+  },
+  "40": {
+    "columns": [
+      "sensor_id",
+      "average"
+    ],
+    "row_count": 72,
+    "first_rows": [
+      [
+        1,
+        50.413866666666664
+      ],
+      [
+        2,
+        4.014694444444444
+      ],
+      [
+        3,
+        6.525721448467967
+      ]
+    ]
+  },
+  "41": {
+    "columns": [
+      "equipment_id",
+      "minutes"
+    ],
+    "row_count": 1,
+    "first_rows": [
+      [
+        4,
+        1980
+      ]
+    ]
+  },
+  "42": {
+    "columns": [
+      "sensor_id",
+      "missing"
+    ],
+    "row_count": 67,
+    "first_rows": [
+      [
+        6,
+        4
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        8,
+        4
+      ]
+    ]
+  },
+  "43": {
+    "columns": [
+      "kind",
+      "cost"
+    ],
+    "row_count": 2,
+    "first_rows": [
+      [
+        "corrective",
+        64364.49
+      ],
+      [
+        "preventive",
+        30657.28
+      ]
+    ]
+  },
+  "44": {
+    "columns": [
+      "day",
+      "good"
+    ],
+    "row_count": 31,
+    "first_rows": [
+      [
+        "2026-08-01",
+        18291
+      ],
+      [
+        "2026-08-02",
+        17307
+      ],
+      [
+        "2026-08-03",
+        18364
+      ]
+    ]
+  },
+  "45": {
+    "columns": [
+      "month",
+      "events"
+    ],
+    "row_count": 3,
+    "first_rows": [
+      [
+        "2026-07",
+        76
+      ],
+      [
+        "2026-08",
+        75
+      ],
+      [
+        "2026-09",
+        72
+      ]
+    ]
+  },
+  "46": {
+    "columns": [
+      "id",
+      "name",
+      "factory"
+    ],
+    "row_count": 6,
+    "first_rows": [
+      [
+        1,
+        "Linha 1",
+        "MetalMinas"
+      ],
+      [
+        2,
+        "Linha 2",
+        "MetalMinas"
+      ],
+      [
+        3,
+        "Linha 3",
+        "AçoSul"
+      ]
+    ]
+  },
+  "47": {
+    "columns": [
+      "id",
+      "name",
+      "line",
+      "factory"
+    ],
+    "row_count": 18,
+    "first_rows": [
+      [
+        1,
+        "Máquina 1",
+        "Linha 1",
+        "MetalMinas"
+      ],
+      [
+        2,
+        "Máquina 2",
+        "Linha 1",
+        "MetalMinas"
+      ],
+      [
+        3,
+        "Máquina 3",
+        "Linha 1",
+        "MetalMinas"
+      ]
+    ]
+  },
+  "48": {
+    "columns": [
+      "id",
+      "tag",
+      "name"
+    ],
+    "row_count": 72,
+    "first_rows": [
+      [
+        1,
+        "E01_temperature",
+        "Máquina 1"
+      ],
+      [
+        2,
+        "E01_vibration",
+        "Máquina 1"
+      ],
+      [
+        3,
+        "E01_pressure",
+        "Máquina 1"
+      ]
+    ]
+  },
+  "49": {
+    "columns": [
+      "id",
+      "name"
+    ],
+    "row_count": 105,
+    "first_rows": [
+      [
+        1,
+        null
+      ],
+      [
+        2,
+        "Técnico 1"
+      ],
+      [
+        3,
+        "Técnico 9"
+      ]
+    ]
+  },
+  "50": {
+    "columns": [
+      "id",
+      "name"
+    ],
+    "row_count": 1,
+    "first_rows": [
+      [
+        18,
+        "Máquina 18"
+      ]
+    ]
+  },
+  "51": {
+    "columns": [
+      "id",
+      "name",
+      "equipment_count"
+    ],
+    "row_count": 3,
+    "first_rows": [
+      [
+        1,
+        "MetalMinas",
+        6
+      ],
+      [
+        2,
+        "AçoSul",
+        6
+      ],
+      [
+        3,
+        "ValePeças",
+        6
+      ]
+    ]
+  },
+  "52": {
+    "columns": [
+      "id",
+      "good"
+    ],
+    "row_count": 18,
+    "first_rows": [
+      [
+        1,
+        94414
+      ],
+      [
+        2,
+        93801
+      ],
+      [
+        3,
+        95074
+      ]
+    ]
+  },
+  "53": {
+    "columns": [
+      "id",
+      "temperature"
+    ],
+    "row_count": 18,
+    "first_rows": [
+      [
+        1,
+        50.413866666666664
+      ],
+      [
+        2,
+        50.38317548746519
+      ],
+      [
+        3,
+        50.3747030812325
+      ]
+    ]
+  },
+  "54": {
+    "columns": [
+      "id",
+      "tag",
+      "value",
+      "min_value",
+      "max_value"
+    ],
+    "row_count": 389,
+    "first_rows": [
+      [
+        3456,
+        "E18_energy",
+        105.0,
+        0.0,
+        100.0
+      ],
+      [
+        3740,
+        "E18_pressure",
+        17.0,
+        1.0,
+        12.0
+      ],
+      [
+        4024,
+        "E18_vibration",
+        13.0,
+        0.0,
+        8.0
+      ]
+    ]
+  },
+  "55": {
+    "columns": [
+      "id",
+      "cost"
+    ],
+    "row_count": 3,
+    "first_rows": [
+      [
+        1,
+        31332.79
+      ],
+      [
+        2,
+        34911.74
+      ],
+      [
+        3,
+        28777.24
+      ]
+    ]
+  },
+  "56": {
+    "columns": [
+      "id",
+      "minutes"
+    ],
+    "row_count": 6,
+    "first_rows": [
+      [
+        1,
+        1628
+      ],
+      [
+        2,
+        2555
+      ],
+      [
+        3,
+        1707
+      ]
+    ]
+  },
+  "57": {
+    "columns": [
+      "id",
+      "status"
+    ],
+    "row_count": 83,
+    "first_rows": [
+      [
+        31,
+        "cancelled"
+      ],
+      [
+        62,
+        "cancelled"
+      ],
+      [
+        93,
+        "cancelled"
+      ]
+    ]
+  },
+  "58": {
+    "columns": [
+      "product",
+      "scrap_pct"
+    ],
+    "row_count": 3,
+    "first_rows": [
+      [
+        "Carcaça",
+        4.980313868085257
+      ],
+      [
+        "Chapa",
+        4.970026306111499
+      ],
+      [
+        "Eixo",
+        6.090138221661742
+      ]
+    ]
+  },
+  "59": {
+    "columns": [
+      "id"
+    ],
+    "row_count": 0,
+    "first_rows": []
+  },
+  "60": {
+    "columns": [
+      "id",
+      "missing"
+    ],
+    "row_count": 3,
+    "first_rows": [
+      [
+        1,
+        91
+      ],
+      [
+        2,
+        96
+      ],
+      [
+        3,
+        96
+      ]
+    ]
+  },
+  "61": {
+    "columns": [
+      "id",
+      "cost"
+    ],
+    "row_count": 50,
+    "first_rows": [
+      [
+        2,
+        1176.0
+      ],
+      [
+        4,
+        1652.83
+      ],
+      [
+        5,
+        1440.64
+      ]
+    ]
+  },
+  "62": {
+    "columns": [
+      "id",
+      "name"
+    ],
+    "row_count": 12,
+    "first_rows": [
+      [
+        1,
+        "Máquina 1"
+      ],
+      [
+        2,
+        "Máquina 2"
+      ],
+      [
+        4,
+        "Máquina 4"
+      ]
+    ]
+  },
+  "63": {
+    "columns": [
+      "id"
+    ],
+    "row_count": 1,
+    "first_rows": [
+      [
+        18
+      ]
+    ]
+  },
+  "64": {
+    "columns": [
+      "id",
+      "capacity_per_hour"
+    ],
+    "row_count": 6,
+    "first_rows": [
+      [
+        3,
+        95.0
+      ],
+      [
+        6,
+        110.0
+      ],
+      [
+        9,
+        125.0
+      ]
+    ]
+  },
+  "65": {
+    "columns": [
+      "id",
+      "tag"
+    ],
+    "row_count": 72,
+    "first_rows": [
+      [
+        1,
+        "E01_temperature"
+      ],
+      [
+        2,
+        "E01_vibration"
+      ],
+      [
+        3,
+        "E01_pressure"
+      ]
+    ]
+  },
+  "66": {
+    "columns": [
+      "id",
+      "planned_qty",
+      "good"
+    ],
+    "row_count": 1526,
+    "first_rows": [
+      [
+        1,
+        1200,
+        1103
+      ],
+      [
+        2,
+        1200,
+        1051
+      ],
+      [
+        3,
+        1200,
+        1046
+      ]
+    ]
+  },
+  "67": {
+    "columns": [
+      "id",
+      "cost"
+    ],
+    "row_count": 1,
+    "first_rows": [
+      [
+        54,
+        1754.35
+      ]
+    ]
+  },
+  "68": {
+    "columns": [
+      "id"
+    ],
+    "row_count": 0,
+    "first_rows": []
+  },
+  "69": {
+    "columns": [
+      "id"
+    ],
+    "row_count": 1,
+    "first_rows": [
+      [
+        3
+      ]
+    ]
+  },
+  "70": {
+    "columns": [
+      "id",
+      "cost"
+    ],
+    "row_count": 47,
+    "first_rows": [
+      [
+        2,
+        1176.0
+      ],
+      [
+        4,
+        1652.83
+      ],
+      [
+        5,
+        1440.64
+      ]
+    ]
+  },
+  "71": {
+    "columns": [
+      "day",
+      "good"
+    ],
+    "row_count": 90,
+    "first_rows": [
+      [
+        "2026-07-01",
+        18464
+      ],
+      [
+        "2026-07-02",
+        17166
+      ],
+      [
+        "2026-07-03",
+        18400
+      ]
+    ]
+  },
+  "72": {
+    "columns": [
+      "equipment_id",
+      "minutes"
+    ],
+    "row_count": 1,
+    "first_rows": [
+      [
+        4,
+        1980
+      ]
+    ]
+  },
+  "73": {
+    "columns": [
+      "shift",
+      "pct"
+    ],
+    "row_count": 3,
+    "first_rows": [
+      [
+        "A",
+        33.27450030881106
+      ],
+      [
+        "B",
+        33.33252313278377
+      ],
+      [
+        "C",
+        33.392976558405174
+      ]
+    ]
+  },
+  "74": {
+    "columns": [
+      "id",
+      "cost",
+      "minutes"
+    ],
+    "row_count": 18,
+    "first_rows": [
+      [
+        1,
+        7248.23,
+        890
+      ],
+      [
+        2,
+        4749.17,
+        943
+      ],
+      [
+        3,
+        5638.17,
+        839
+      ]
+    ]
+  },
+  "75": {
+    "columns": [
+      "sensor_id",
+      "invalid_pct"
+    ],
+    "row_count": 72,
+    "first_rows": [
+      [
+        1,
+        2.1739130434782608
+      ],
+      [
+        2,
+        2.1739130434782608
+      ],
+      [
+        3,
+        2.4456521739130435
+      ]
+    ]
+  },
+  "76": {
+    "columns": [
+      "factory_id",
+      "month",
+      "good"
+    ],
+    "row_count": 9,
+    "first_rows": [
+      [
+        1,
+        "2026-07",
+        194582
+      ],
+      [
+        1,
+        "2026-08",
+        193562
+      ],
+      [
+        1,
+        "2026-09",
+        176345
+      ]
+    ]
+  },
+  "77": {
+    "columns": [
+      "day",
+      "pct"
+    ],
+    "row_count": 0,
+    "first_rows": []
+  },
+  "78": {
+    "columns": [
+      "equipment_id",
+      "pct"
+    ],
+    "row_count": 17,
+    "first_rows": [
+      [
+        1,
+        94.56521739130434
+      ],
+      [
+        2,
+        94.56521739130434
+      ],
+      [
+        3,
+        95.65217391304348
+      ]
+    ]
+  },
+  "79": {
+    "columns": [
+      "kind",
+      "anomalies"
+    ],
+    "row_count": 4,
+    "first_rows": [
+      [
+        "energy",
+        70
+      ],
+      [
+        "pressure",
+        69
+      ],
+      [
+        "temperature",
+        181
+      ]
+    ]
+  },
+  "80": {
+    "columns": [
+      "day"
+    ],
+    "row_count": 30,
+    "first_rows": [
+      [
+        "2026-09-01"
+      ],
+      [
+        "2026-09-02"
+      ],
+      [
+        "2026-09-03"
+      ]
+    ]
+  },
+  "81": {
+    "columns": [
+      "id",
+      "capacity_per_hour",
+      "position"
+    ],
+    "row_count": 18,
+    "first_rows": [
+      [
+        18,
+        170.0,
+        1
+      ],
+      [
+        17,
+        165.0,
+        2
+      ],
+      [
+        16,
+        160.0,
+        3
+      ]
+    ]
+  },
+  "82": {
+    "columns": [
+      "id",
+      "line_id",
+      "capacity_per_hour",
+      "ranking"
+    ],
+    "row_count": 18,
+    "first_rows": [
+      [
+        3,
+        1,
+        95.0,
+        1
+      ],
+      [
+        2,
+        1,
+        90.0,
+        2
+      ],
+      [
+        1,
+        1,
+        85.0,
+        3
+      ]
+    ]
+  },
+  "83": {
+    "columns": [
+      "equipment_id",
+      "cost",
+      "ranking"
+    ],
+    "row_count": 17,
+    "first_rows": [
+      [
+        7,
+        7411.66,
+        1
+      ],
+      [
+        1,
+        7248.23,
+        2
+      ],
+      [
+        12,
+        7148.16,
+        3
+      ]
+    ]
+  },
+  "84": {
+    "columns": [
+      "sensor_id",
+      "measured_at",
+      "value",
+      "quality"
+    ],
+    "row_count": 72,
+    "first_rows": [
+      [
+        1,
+        "2026-09-30 18:00:00",
+        30.998,
+        "good"
+      ],
+      [
+        2,
+        "2026-09-30 18:00:00",
+        2.252,
+        "good"
+      ],
+      [
+        3,
+        "2026-09-30 18:00:00",
+        8.549,
+        "good"
+      ]
+    ]
+  },
+  "85": {
+    "columns": [
+      "day",
+      "good",
+      "accumulated"
+    ],
+    "row_count": 31,
+    "first_rows": [
+      [
+        "2026-08-01",
+        18291,
+        18291
+      ],
+      [
+        "2026-08-02",
+        17307,
+        35598
+      ],
+      [
+        "2026-08-03",
+        18364,
+        53962
+      ]
+    ]
+  },
+  "86": {
+    "columns": [
+      "id",
+      "equipment_id",
+      "started_at",
+      "duration_minutes",
+      "accumulated"
+    ],
+    "row_count": 223,
+    "first_rows": [
+      [
+        3,
+        1,
+        "2026-07-02 03:00:00",
+        99,
+        99
+      ],
+      [
+        20,
+        1,
+        "2026-07-09 03:00:00",
+        96,
+        195
+      ],
+      [
+        37,
+        1,
+        "2026-07-16 03:00:00",
+        76,
+        271
+      ]
+    ]
+  },
+  "87": {
+    "columns": [
+      "day",
+      "good",
+      "previous"
+    ],
+    "row_count": 90,
+    "first_rows": [
+      [
+        "2026-07-01",
+        18464,
+        null
+      ],
+      [
+        "2026-07-02",
+        17166,
+        18464
+      ],
+      [
+        "2026-07-03",
+        18400,
+        17166
+      ]
+    ]
+  },
+  "88": {
+    "columns": [
+      "day",
+      "good",
+      "delta"
+    ],
+    "row_count": 90,
+    "first_rows": [
+      [
+        "2026-07-01",
+        18464,
+        null
+      ],
+      [
+        "2026-07-02",
+        17166,
+        -1298
+      ],
+      [
+        "2026-07-03",
+        18400,
+        1234
+      ]
+    ]
+  },
+  "89": {
+    "columns": [
+      "day",
+      "good",
+      "previous",
+      "pct"
+    ],
+    "row_count": 90,
+    "first_rows": [
+      [
+        "2026-07-01",
+        18464,
+        null,
+        null
+      ],
+      [
+        "2026-07-02",
+        17166,
+        18464,
+        -7.029896013864818
+      ],
+      [
+        "2026-07-03",
+        18400,
+        17166,
+        7.188628684609111
+      ]
+    ]
+  },
+  "90": {
+    "columns": [
+      "measured_at",
+      "value",
+      "next_time",
+      "next_value"
+    ],
+    "row_count": 368,
+    "first_rows": [
+      [
+        "2026-07-01 00:00:00",
+        60.478,
+        "2026-07-01 06:00:00",
+        50.307
+      ],
+      [
+        "2026-07-01 06:00:00",
+        50.307,
+        "2026-07-01 12:00:00",
+        34.256
+      ],
+      [
+        "2026-07-01 12:00:00",
+        34.256,
+        "2026-07-01 18:00:00",
+        55.012
+      ]
+    ]
+  },
+  "91": {
+    "columns": [
+      "day",
+      "good",
+      "moving_average"
+    ],
+    "row_count": 90,
+    "first_rows": [
+      [
+        "2026-07-01",
+        18464,
+        18464.0
+      ],
+      [
+        "2026-07-02",
+        17166,
+        17815.0
+      ],
+      [
+        "2026-07-03",
+        18400,
+        18010.0
+      ]
+    ]
+  },
+  "92": {
+    "columns": [
+      "measured_at",
+      "value",
+      "moving_average"
+    ],
+    "row_count": 368,
+    "first_rows": [
+      [
+        "2026-07-01 00:00:00",
+        60.478,
+        60.478
+      ],
+      [
+        "2026-07-01 06:00:00",
+        50.307,
+        55.3925
+      ],
+      [
+        "2026-07-01 12:00:00",
+        34.256,
+        48.347
+      ]
+    ]
+  },
+  "93": {
+    "columns": [
+      "equipment_id",
+      "minutes",
+      "pct"
+    ],
+    "row_count": 17,
+    "first_rows": [
+      [
+        1,
+        890,
+        5.686537601431218
+      ],
+      [
+        2,
+        943,
+        6.025174110280493
+      ],
+      [
+        3,
+        839,
+        5.360679828764935
+      ]
+    ]
+  },
+  "94": {
+    "columns": [
+      "factory_id",
+      "equipment_id",
+      "minutes",
+      "rn"
+    ],
+    "row_count": 9,
+    "first_rows": [
+      [
+        1,
+        4,
+        590,
+        1
+      ],
+      [
+        1,
+        6,
+        445,
+        2
+      ],
+      [
+        1,
+        2,
+        288,
+        3
+      ]
+    ]
+  },
+  "95": {
+    "columns": [
+      "id",
+      "capacity_per_hour",
+      "quartile"
+    ],
+    "row_count": 18,
+    "first_rows": [
+      [
+        1,
+        85.0,
+        1
+      ],
+      [
+        2,
+        90.0,
+        1
+      ],
+      [
+        3,
+        95.0,
+        1
+      ]
+    ]
+  },
+  "96": {
+    "columns": [
+      "measured_at",
+      "value",
+      "first_value",
+      "last_value"
+    ],
+    "row_count": 368,
+    "first_rows": [
+      [
+        "2026-07-01 00:00:00",
+        60.478,
+        60.478,
+        30.998
+      ],
+      [
+        "2026-07-01 06:00:00",
+        50.307,
+        60.478,
+        30.998
+      ],
+      [
+        "2026-07-01 12:00:00",
+        34.256,
+        60.478,
+        30.998
+      ]
+    ]
+  },
+  "97": {
+    "columns": [
+      "sensor_id",
+      "measured_at",
+      "gap_hours"
+    ],
+    "row_count": 26496,
+    "first_rows": [
+      [
+        1,
+        "2026-07-01 00:00:00",
+        null
+      ],
+      [
+        1,
+        "2026-07-01 06:00:00",
+        6.0
+      ],
+      [
+        1,
+        "2026-07-01 12:00:00",
+        6.0
+      ]
+    ]
+  },
+  "98": {
+    "columns": [
+      "equipment_id",
+      "id",
+      "cost"
+    ],
+    "row_count": 17,
+    "first_rows": [
+      [
+        1,
+        36,
+        1554.36
+      ],
+      [
+        2,
+        4,
+        1652.83
+      ],
+      [
+        3,
+        74,
+        1554.29
+      ]
+    ]
+  },
+  "99": {
+    "columns": [
+      "factory_id",
+      "month",
+      "good",
+      "delta"
+    ],
+    "row_count": 9,
+    "first_rows": [
+      [
+        1,
+        "2026-07",
+        194582,
+        null
+      ],
+      [
+        1,
+        "2026-08",
+        193562,
+        -1020
+      ],
+      [
+        1,
+        "2026-09",
+        176345,
+        -17217
+      ]
+    ]
+  },
+  "100": {
+    "columns": [
+      "id",
+      "factory_id",
+      "good",
+      "scrap_pct",
+      "minutes",
+      "cost",
+      "ranking"
+    ],
+    "row_count": 18,
+    "first_rows": [
+      [
+        4,
+        1,
+        93715,
+        10.946928303321139,
+        1383,
+        3904.46,
+        1
+      ],
+      [
+        1,
+        1,
+        94414,
+        5.060032580495948,
+        652,
+        7248.23,
+        2
+      ],
+      [
+        6,
+        1,
+        93888,
+        5.084060373848782,
+        619,
+        4557.62,
+        3
+      ]
+    ]
+  }
+}
