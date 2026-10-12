@@ -1,5 +1,4 @@
 # Industrial Operations SQL Lab — SQLite
-Laboratório gratuito para preparação de entrevistas de estágio em dados industriais. Cenário fictício, sem associação com arquitetura ou dados internos da Stefanini IHM.
 
 ## Comece aqui
 1. Extraia todo o ZIP e abra **esta pasta** no VSCode (File → Open Folder).
